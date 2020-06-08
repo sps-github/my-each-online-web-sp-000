@@ -1,10 +1,10 @@
 def my_each(words)
   counter = 0
 
-  while counter < array.length
-    yield(array[counter])
+  while counter < words.length
+    yield(words[counter])
     counter += 1
   end
 
-array
+words
 end
