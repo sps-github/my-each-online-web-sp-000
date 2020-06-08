@@ -4,4 +4,6 @@ def my_each(words)
     yield array[w]
     w = w + 1
   end
+
+  words
 end
